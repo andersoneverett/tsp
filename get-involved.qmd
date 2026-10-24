@@ -17,7 +17,7 @@ TSP is building a foundation for useful, accessible youth service programming an
 
 ## Current contribution route
 
-Contributors comfortable with GitHub can [open the collaboration workspace](https://github.com/everettsaccount/tsp) and use its issue templates for research suggestions, resource feedback, and technical problems. Instructions are in its CONTRIBUTING.md file. GitHub is a working space, not a prerequisite for future program participation.
+Contributors comfortable with GitHub can [open the collaboration workspace](https://github.com/andersoneverett/tsp) and use its issue templates for research suggestions, resource feedback, and technical problems. Instructions are in its CONTRIBUTING.md file. GitHub is a working space, not a prerequisite for future program participation.
 
 Public contact channels are still being configured. Until a suitable contact route is available, this site does not collect messages, registrations, email addresses, or participant information. Please do not post personal or confidential information in public issues.
 

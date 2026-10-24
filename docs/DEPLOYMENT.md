@@ -2,8 +2,8 @@
 
 ## One-time owner setup
 
-1. Keep this as one repository. The existing selected remote is `everettsaccount/tsp`. If the final name should be `teen-service-project`, rename it in **Repository Settings → General → Repository name**. No remote rename has been attempted because GitHub API access is unavailable in the build environment.
-2. Set `website.site-url` in `_quarto.yml` to the real project Pages URL. It currently uses `https://everettsaccount.github.io/tsp/`. After the rename, use `https://everettsaccount.github.io/teen-service-project/`. Keep the trailing slash. This controls canonical URLs, sitemap, RSS, and project-path behavior.
+1. Keep this as one repository. The existing selected remote is `andersoneverett/tsp`. If the final name should be `teen-service-project`, rename it in **Repository Settings → General → Repository name**. No remote rename has been attempted because GitHub API access is unavailable in the build environment.
+2. Set `website.site-url` in `_quarto.yml` to the real project Pages URL. It currently uses `https://andersoneverett.github.io/tsp/`. After the rename, use `https://andersoneverett.github.io/teen-service-project/`. Keep the trailing slash. This controls canonical URLs, sitemap, RSS, and project-path behavior.
 3. Push/merge the reviewed project onto `main`. This empty starting repository did not originally have a `main` branch. Set `main` as the default branch in GitHub when it exists.
 4. Open **Settings → Pages → Build and deployment → Source → GitHub Actions**. Confirm Pages is available for the repository’s visibility and account plan.
 5. Open **Actions → Publish website**. The workflow runs after changes to `main`; it can also be started with **Run workflow** on `main`. Review the build and deployment jobs. The deployment job requires Pages permission and the `github-pages` environment; organization rules may require an owner to authorize it.

@@ -21,7 +21,7 @@ project:
 website:
   title: Teen Service Project
   description: Advancing youth opportunity through research, advocacy, and civic engagement.
-  site-url: https://everettsaccount.github.io/tsp/
+  site-url: https://andersoneverett.github.io/tsp/
   favicon: assets/favicon.svg
   draft-mode: gone
   search:

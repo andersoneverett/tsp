@@ -62,7 +62,7 @@ Allow `cloud.r-project.org` in environment settings for new CRAN packages or a f
 
 ## Publish on GitHub Pages
 
-See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). The selected remote is currently `everettsaccount/tsp`; the intended repository name is `teen-service-project`. The project and R project already use that name. A maintainer can rename the existing repository in GitHub Settings without creating a second copy, then update `website.site-url` in `_quarto.yml` and the checkout remote. Until then the configuration targets the current `tsp` project path. Neither a rename nor a live deployment has been performed by the local build.
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). The selected remote is currently `andersoneverett/tsp`; the intended repository name is `teen-service-project`. The project and R project already use that name. A maintainer can rename the existing repository in GitHub Settings without creating a second copy, then update `website.site-url` in `_quarto.yml` and the checkout remote. Until then the configuration targets the current `tsp` project path. Neither a rename nor a live deployment has been performed by the local build.
 
 ## Contribute and correct
 
