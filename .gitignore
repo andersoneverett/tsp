@@ -1,6 +1,5 @@
 /_site/
 /.quarto/
-/.venv/
 /.Rproj.user/
 .Rhistory
 .RData
@@ -19,7 +18,6 @@ research-projects/**/figures/*
 !research-projects/**/figures/README.md
 research-projects/**/reports/*.html
 research-projects/**/reports/*_files/
-__pycache__/
 .DS_Store
 
 **/*.quarto_ipynb

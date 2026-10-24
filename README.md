@@ -1,69 +1,65 @@
-# Teen Service Project · Alpha v0.1
+# Teen Service Project
 
 **Advancing youth opportunity through research, advocacy, and civic engagement.**
 
-Teen Service Project (TSP) is an independent grassroots initiative being redeveloped around community programming, applied research, and public policy advocacy. This repository contains the public Quarto website, reproducible R research workspace, publication templates, and a starting point for developing youth service materials.
+An R and Quarto project: the public website, research workspace, and developing youth service resources live together here. The website is at **https://andersoneverett.github.io/tsp/**.
 
-This alpha does not claim active events, partnerships, completed research, participant outcomes, or a finished curriculum. Original TSP materials and a verified history remain to be supplied. No blanket software or content license has been selected; see [licensing decisions](docs/LICENSING.md).
+## Everyday editing
 
-## For routine content editing
+Open `teen-service-project.Rproj` in RStudio. Open a `.qmd` page, edit its text, and click **Render**. Use **Render Website** in the Build pane to render all pages. Quarto also supports `quarto preview` and `quarto render` from a terminal.
 
-Start with [EDITING-GUIDE.md](EDITING-GUIDE.md). You can edit pages and publish news or research through GitHub’s browser interface; RStudio, a terminal, and local deployment tools are not needed. GitHub Actions builds and deploys approved changes on `main` after Pages is enabled.
+You can also edit directly on GitHub. Saving approved changes to `main` runs one GitHub Actions workflow that renders Quarto and publishes the site. See [EDITING-GUIDE.md](EDITING-GUIDE.md) for adding news, publications, and resources without using a terminal.
 
-## Repository layout
+## Where things live
 
-| Path | Purpose |
+| What you want to change | File or folder |
 | --- | --- |
-| `index.qmd`, `about.qmd`, `get-involved.qmd` | Principal public pages |
-| `programs/` | Model, audience pages, feedback, and future resource pages |
-| `news/posts/<slug>/index.qmd` | Automatically listed updates |
-| `research/publications/<slug>/index.qmd` | Automatically listed agendas, briefs, and reports |
-| `research-projects/` | Analytical source, data documentation, and local reports; excluded from site |
-| `assets/`, `downloads/` | Approved public assets and downloads |
-| `templates/`, `drafts/` | Unpublished templates and working text; excluded from site |
-| `renv/`, `renv.lock`, `.Rprofile` | Reproducible R environment |
-| `scripts/`, `.github/` | Validation and publishing automation |
+| Homepage | `index.qmd` |
+| Navigation, footer, public URL | `_quarto.yml` |
+| Shared mission text | `_variables.yml` |
+| Colors and typography | `assets/brand.scss` |
+| Social and contact links | `get-involved.qmd` — ordinary Markdown links when verified |
+| Program pages and resources | `programs/` |
+| News articles | `news/posts/<slug>/index.qmd` |
+| Research publications | `research/publications/<slug>/index.qmd` |
+| Research code, source inventory, and local reports | `research-projects/` |
+| Reusable documents and unpublished working text | `templates/` and `drafts/` |
+| Approved public downloads | `downloads/` |
 
-## Website development
-
-Install [Quarto 1.8.27](https://quarto.org/docs/get-started/) and Python 3.12 or later. Python validation requires `PyYAML==6.0.3` (`python -m pip install PyYAML==6.0.3`). Website rendering needs **no R packages or datasets**.
-
-```sh
-quarto render
-python3 scripts/validate.py
-quarto preview --no-browser
-```
-
-The generated website is in `_site/` and is ignored by Git. Public rendering uses an explicit allowlist. `draft: true` adds a second safeguard for unfinished content, but a public Git repository still exposes committed drafts. Never commit confidential information.
-
-Run `python3 scripts/test-listings.py` to test adding and removing a temporary news article, research publication, and unpublished draft. It rebuilds the site and checks listing, RSS, search, and draft behavior, then removes only its own temporary files and rebuilds the final site.
-
-Optional browser validation uses `python3 scripts/test-browser.py` with Playwright and Chromium installed. Pass `--axe /path/to/axe.min.js` for automated WCAG A/AA checks. This starts a temporary internal server at the configured project URL path and tests all public pages at desktop and mobile widths, navigation, search, archive filtering, draft-safe public configuration, and keyboard access. It does not establish a complete accessibility audit. The cloud validation used Playwright’s installed Python package, system Chromium, and axe-core 4.10.3.
+News and research archives, categories, search, and RSS are built by Quarto. Adding a properly formatted article updates its archive automatically. The design uses one SCSS theme and local SVG images. A small include in `includes/accessibility.html` corrects keyboard and navigation behavior in Quarto 1.8; there is no custom application or dynamic configuration service.
 
 ## R research
 
-Use R 4.5.0 and restore the project’s package lock:
+Use **R 4.5.0** and **Quarto 1.8.27**. In the R console at the project root:
 
-```sh
-Rscript -e 'renv::restore(prompt = FALSE)'
-Rscript research-projects/national-service/src/validate-inventory.R
-quarto render research-projects/national-service/reports/report.qmd --execute
+```r
+renv::restore()
+source("research-projects/national-service/src/validate-inventory.R")
+validate_inventory("research-projects/national-service/source-inventory.csv")
 ```
 
-The initial lock contains `renv`, `knitr`, `rmarkdown`, and the dependencies required for analytical reports. Data manipulation and plotting packages such as `dplyr`, `readr`, `ggplot2`, or the full `tidyverse` can be installed with `renv::install()` when actual analysis requires them, followed by a reviewed `renv::snapshot()`. See the [research workspace instructions](research-projects/national-service/README.md).
+Open `research-projects/national-service/reports/report.qmd` and click **Render** to run the analytical template. Its separate Quarto configuration keeps analysis outside the public website. The equivalent terminal command is `quarto render research-projects/national-service/reports/report.qmd --execute`.
 
-No sources or datasets have been fabricated. The executable report validates an intentionally empty inventory and records session information; it is a template, not evidence of program effects. Publish only reviewed, approved artifacts to the website. Ordinary publishing never reruns the analytical projects.
+The lock contains the packages needed for reports. Add `ggplot2`, tidyverse packages, or other analytical dependencies with `renv::install()` when needed, then use `renv::snapshot()` to record them. Ordinary website updates do not run R analyses or need datasets.
 
-## Cloud environment
+The initial source inventory is intentionally empty. The report is a working template, not research findings. Original TSP materials, verified history, sources, and datasets remain to be supplied. The program pages distinguish proposed guidance from tested practice.
 
-In this Debian 13 environment, `bash scripts/setup-cloud.sh` installs verified tooling under `/workspace/.tools` without system administration. Then use `source scripts/cloud-env.sh`. The install script leaves content and lockfiles unchanged. Reuse the existing checkout; each cloud task is already isolated and needs no extra Git worktree.
+## Optional checks
 
-Allow `cloud.r-project.org` in environment settings for new CRAN packages or a fresh source restore. The prepared locked library and report template work in the current instance; a clean CRAN download on another machine has not been tested. Reusable installation and startup instructions and this CRAN domain requirement are saved in the environment configuration draft; review and save the settings, then publish the environment to retain them.
+After rendering the whole website, run this in the R console:
 
-## Publish on GitHub Pages
+```r
+source("scripts/check.R")
+```
 
-See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). The selected remote is currently `andersoneverett/tsp`; the intended repository name is `teen-service-project`. The project and R project already use that name. A maintainer can rename the existing repository in GitHub Settings without creating a second copy, then update `website.site-url` in `_quarto.yml` and the checkout remote. Until then the configuration targets the current `tsp` project path. Neither a rename nor a live deployment has been performed by the local build.
+This checks rendered internal links, feeds, search, draft boundaries, image alternative text, and the research inventory. It uses base R and `yaml`, already included in the locked reporting environment. There is no Python, Node, or browser-testing toolchain to install or maintain for this project.
 
-## Contribute and correct
+## Publishing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Research suggestions, resource feedback, and technical problem issue templates are included. Do not post personal or confidential information about young people. Report limitations and contradictory evidence as carefully as positive results.
+GitHub Pages is enabled for this repository. The single workflow in `.github/workflows/website.yml` builds pull requests and publishes successful `main` builds. For a fresh repository, choose **Settings → Pages → Source → GitHub Actions**. No personal access token or extra hosting service is needed.
+
+If you rename the repository to `teen-service-project`, update `website.site-url` in `_quarto.yml` to match the new Pages URL. For an error, open **Actions → Publish website** and inspect the failed step; you can retry with **Run workflow**.
+
+The public render explicitly excludes drafts, templates, and analytical projects. `_site/` is generated and not committed. A public Git repository still exposes committed drafts: never commit private participant information, confidential research records, or credentials.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for suggestions and corrections. Licensing choices remain open for code, publications, and program materials separately; see [docs/LICENSING.md](docs/LICENSING.md).

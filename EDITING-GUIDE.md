@@ -48,7 +48,7 @@ Use `drafts/` for ordinary, nonconfidential working material. The website only r
 
 ## Change social links and branding
 
-Edit `assets/site-config.json`. Replace `null` with a quoted, verified `https://` URL, for example the organization’s actual account URL. Do not put a fictional example into the live configuration. Leave unconfigured services as `null`; they do not become public buttons. New services can be added to the same `socialLinks` object. Keep commas between entries; a validation check catches malformed JSON or non-HTTPS URLs.
+Edit the **Follow TSP** section of `get-involved.qmd`. Add ordinary Markdown links to verified accounts, just as you would add any other link in a Quarto document. Leave the explanatory text until Facebook, Instagram, or Action Network addresses are confirmed. There is no separate social configuration file.
 
 The neutral wordmark is `assets/wordmark.svg`; the favicon is `assets/favicon.svg`. Colors and typography are at the top of `assets/brand.scss`. The mission is in `_variables.yml`. The website title, navigation, footer, and public base URL are in `_quarto.yml`.
 

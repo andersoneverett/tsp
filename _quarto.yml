@@ -64,7 +64,7 @@ format:
     anchor-sections: true
     link-external-newwindow: false
     include-before-body: includes/skip-link.html
-    include-after-body: includes/footer.html
+    include-after-body: includes/accessibility.html
     lang: en
     date-format: long
     html-math-method: mathml

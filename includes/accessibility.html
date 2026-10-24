@@ -1,5 +1,6 @@
-// Optional public links only. Never store secrets in site-config.json.
-document.addEventListener('DOMContentLoaded', async () => {
+<script>
+// Small compatibility fixes for Quarto 1.8 keyboard navigation.
+document.addEventListener('DOMContentLoaded', () => {
   // Quarto inserts before-body includes after its navbar. Put the skip link first
   // in keyboard order while retaining a useful fallback when JavaScript is off.
   const skip = document.querySelector('.skip-link');
@@ -28,27 +29,5 @@ document.addEventListener('DOMContentLoaded', async () => {
       window['quarto-listings']?.[id]?.search(filter.value);
     });
   }
-  const target = document.querySelector('[data-social-links]');
-  if (!target) return;
-  try {
-    const script = [...document.scripts].find(s => s.src.endsWith('/assets/site.js'));
-    const response = await fetch(new URL('site-config.json', script.src));
-    if (!response.ok) throw new Error('Configuration unavailable');
-    const config = await response.json();
-    for (const [name, url] of Object.entries(config.socialLinks || {})) {
-      if (typeof url !== 'string') continue;
-      const parsed = new URL(url);
-      if (parsed.protocol !== 'https:') continue;
-      const link = document.createElement('a');
-      link.href = parsed.href;
-      link.textContent = name;
-      link.className = 'social-link';
-      target.append(link);
-    }
-    if (target.childElementCount) {
-      document.querySelector('[data-social-unconfigured]')?.setAttribute('hidden', '');
-    }
-  } catch (_) {
-    // Keep the explicit, accessible unconfigured message visible.
-  }
 });
+</script>

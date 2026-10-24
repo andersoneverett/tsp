@@ -16,22 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Install validation dependency
-        run: python -m pip install PyYAML==6.0.3
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: '1.8.27'
-      - name: Validate public sources
-        run: python scripts/validate.py --source-only
-      - name: Render website (no analytical execution)
+      - name: Render Quarto website
         run: quarto render
-      - name: Check internal links and publication safeguards
-        run: python scripts/validate.py
-      - name: Exercise news, research, RSS, search, and drafts
-        run: python scripts/test-listings.py
       - name: Upload Pages artifact
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3

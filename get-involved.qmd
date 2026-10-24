@@ -23,8 +23,7 @@ Public contact channels are still being configured. Until a suitable contact rou
 
 ## Follow TSP
 
-<div data-social-links></div>
-<p data-social-unconfigured>Facebook, Instagram, and Action Network links have not yet been configured. Only verified links will appear here.</p>
+Facebook, Instagram, and Action Network links have not yet been configured. Verified links will be added here when available.
 
 You can follow public updates using the [news RSS feed](news/index.xml) and [research RSS feed](research/index.xml).
 
