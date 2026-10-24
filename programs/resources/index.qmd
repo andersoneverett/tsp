@@ -1,0 +1,12 @@
+---
+title: Program resources
+description: A structured home for participant materials, facilitator guidance, and local hosting resources as they are developed and reviewed.
+listing:
+  contents: '*.qmd'
+  type: default
+  categories: true
+  filter-ui: true
+  fields: [date, title, description, categories]
+---
+
+Participant guides, facilitator materials, hosting guidance, and community learning resources will appear here when ready. **No complete curriculum or tested program guides are available in alpha v0.1.** The current development note explains what is planned and what needs review.

@@ -1,0 +1,14 @@
+---
+title: Privacy and responsible information sharing
+description: What this alpha website does—and the information that should stay out of a public repository.
+---
+
+This is a static public website. TSP has not added analytics, advertising trackers, registration forms, a mailing-list form, or a database. Search uses a generated index of public website pages. Optional social links take you to external services only when configured.
+
+The site is intended for GitHub Pages hosting; GitHub and any external service you choose to visit have their own privacy practices. Hosting may involve technical request logs outside TSP’s control.
+
+Please do not submit personal information, participant records, identifiable accounts about young people, credentials, or confidential research material through public repository issues. A public issue is not a confidential feedback channel.
+
+Before collecting program or research information, TSP must establish appropriate consent, safeguarding, data access, retention, and review arrangements. This alpha does not collect that information.
+
+Privacy concerns or suggested corrections can be raised through the currently available routes described on [Get Involved](get-involved.qmd), without including sensitive details.

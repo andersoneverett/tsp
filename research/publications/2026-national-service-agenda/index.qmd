@@ -1,0 +1,51 @@
+---
+title: "Paid national service: a research agenda for youth opportunity"
+description: "The questions and methodological commitments guiding TSP’s first research project. An agenda in development, not findings."
+summary: "A starting framework for examining access, compensation, workforce development, civic participation, and public investment."
+date: 2026-10-23
+author: Teen Service Project
+categories: [Research agenda, National service, Equitable access]
+publication-type: Research agenda
+research-status: In development — no findings
+---
+
+::: {.note}
+
+**Research agenda · In development.** This publication sets out questions and an intended approach. It presents no empirical results, verified evidence synthesis, or completed policy evaluation.
+
+:::
+
+
+## The question
+
+How can paid national service expand youth opportunity, workforce development, and civic participation, and what does existing evidence suggest about program effectiveness and equitable access?
+
+TSP’s initial policy priority is expanding voluntary, paid national service in the United States. The research task is to investigate how programs operate, who can participate, what outcomes are documented, and what the available evidence can support. A policy preference does not resolve those empirical questions.
+
+## What we plan to examine
+
+The initial scope covers AmeriCorps, state-level service-year programs, compensation and benefits, participation costs, workforce and educational outcomes, civic engagement, public spending, and implementation. Program types and eligibility requirements must be recorded rather than assumed to be equivalent.
+
+The review should attend to whose experiences are represented, how participants are selected, what information is missing, and whether findings are relevant to young people facing financial or practical barriers.
+
+## A transparent approach
+
+1. **Build a verified inventory.** Record source identity, publication date, coverage, method, access conditions, and verification status before treating a source as evidence.
+2. **Define measures.** Document units, populations, time periods, missing values, compensation definitions, and whether spending figures are nominal or adjusted.
+3. **Assess study designs.** Separate descriptive work, observational associations, and credible causal comparisons. Record attrition, selection concerns, and limits to generalization.
+4. **Analyze reproducibly.** Preserve analytical source code and document transformations. Publish only data that can lawfully and responsibly be shared.
+5. **Communicate proportionately.** Explain uncertainty and gaps, distinguish findings from recommendations, and maintain visible correction notes.
+
+## What is available now
+
+A structured R workspace and reusable planning and reporting templates are included in the collaboration repository. The source inventory is intentionally empty pending verification. No participant data or external datasets are bundled.
+
+Future reports and briefs will be added to the [publication archive](../../index.qmd) after review. They will identify the sources used, the methods applied, the limitations, and the date of the analysis.
+
+## What contributors can help with
+
+Research contributions can identify authoritative program documentation, evaluations, accessible public datasets, useful measures, or concerns about study design. Suggestions should explain relevance and limitations rather than supply unsupported statistics. [See ways to contribute](../../../get-involved.qmd).
+
+## Revision note
+
+**October 23, 2026:** Initial alpha research agenda. No findings or source-based factual claims about program effects are presented.

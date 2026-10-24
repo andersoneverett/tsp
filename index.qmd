@@ -1,0 +1,202 @@
+---
+title: ""
+description: "Advancing youth opportunity through research, advocacy, and civic engagement."
+title-block-style: none
+pagetitle: "Youth opportunity, rooted in community"
+body-classes: home
+page-layout: full
+listing:
+  id: latest
+  contents: news/posts/*/index.qmd
+  type: default
+  sort: date desc
+  max-items: 2
+  fields: [date, title, description]
+  date-format: "MMM D, YYYY"
+  feed: false
+---
+
+::: {.hero}
+
+::: {.feature-content}
+
+::: {.eyebrow}
+
+Rooted in community. Built around young people.
+
+:::
+
+
+# Young people.<br>Stronger communities.<br>More opportunity.
+
+::: {.intro}
+
+{{< var mission >}}
+
+Teen Service Project connects a simple idea—young people can help shape their communities—with a larger question: what would it take for every young person to have that opportunity?
+
+:::
+
+
+::: {.actions}
+
+[Explore the program](programs/index.qmd){.btn-tsp}
+[Our research & policy priorities →](research/index.qmd){.text-link}
+
+:::
+
+:::
+
+
+::: {.feature-content}
+
+<img src="assets/community.svg" alt="An illustrated neighborhood with young people sharing ideas around a community table." width="640" height="590">
+
+::: {.illustration-credit}
+
+An idea for what communities can build together.
+
+:::
+
+:::
+
+:::
+
+
+::: {.mission-strip}
+
+<span><b>01</b> Community programming</span>
+<span><b>02</b> Applied research</span>
+<span><b>03</b> Public policy advocacy</span>
+
+:::
+
+
+::: {.section-heading}
+
+::: {.eyebrow}
+
+One mission. Three connected ways forward.
+
+:::
+
+
+## Opportunity starts locally. Change reaches further.
+
+Practical service experiences can raise important questions about access, support, and public investment. Research can help answer those questions. Advocacy can turn what we learn into better opportunities.
+
+:::
+
+
+::: {.three-grid}
+
+::: {.feature}
+
+::: {.number}
+
+01 / PARTICIPATE
+
+:::
+
+### Young people lead.
+
+Our developing event model brings teenagers and neighbors together to shape youth-led service ideas and connect them with community support.
+
+[How the model works →](programs/index.qmd)
+
+:::
+
+::: {.feature}
+
+::: {.number}
+
+02 / UNDERSTAND
+
+:::
+
+### Evidence informs action.
+
+Our research agenda asks who gets to participate in service, what support matters, and how programs can expand educational, civic, and workforce opportunity.
+
+[Explore the research agenda →](research/national-service.qmd)
+
+:::
+
+::: {.feature}
+
+::: {.number}
+
+03 / ADVOCATE
+
+:::
+
+### Access is a policy choice.
+
+Our initial policy priority is expanding voluntary, paid national service in the United States, with attention to compensation, inclusion, and program quality.
+
+[Read our policy approach →](research/index.qmd#policy-approach)
+
+:::
+
+:::
+
+
+::: {.research-feature}
+
+::: {.feature-content}
+
+::: {.eyebrow}
+
+First research priority / In development
+
+:::
+
+## Making national service an opportunity more young people can choose.
+
+We are establishing a transparent research workspace on paid national service, starting with questions about access, workforce development, civic participation, and public investment.
+
+[Read the national service research agenda →](research/publications/2026-national-service-agenda/index.qmd)
+
+:::
+
+::: {.research-question}
+
+What would meaningful service look like if the ability to participate did not depend on the ability to go unpaid?
+
+:::
+
+:::
+
+
+::: {.section-heading}
+
+::: {.eyebrow}
+
+A practical model, open to local adaptation
+
+:::
+
+## A gathering. An idea. A community behind it.
+
+Teenagers identify local strengths, develop service proposals, and share their ideas with neighbors. Support can mean time, knowledge, space, connections, or small grants when available. An expensive venue or a fundraising target is not a prerequisite.
+
+[For teens](programs/teens.qmd) · [For facilitators](programs/facilitators.qmd) · [For host communities](programs/hosting.qmd)
+
+:::
+
+
+## From TSP
+
+Development notes and updates as this foundation takes shape.
+
+::: {#latest}
+
+:::
+
+
+::: {.note}
+
+**Help shape what comes next.** TSP is redeveloping an existing initiative. Programming resources and research are in development; events and participation opportunities will be announced when confirmed. [See ways to contribute](get-involved.qmd).
+
+:::
+

@@ -1,0 +1,35 @@
+---
+title: For adult facilitators
+description: Help young people make decisions, develop workable ideas, and connect with appropriate support.
+---
+
+::: {.status}
+
+Facilitator resources planned
+
+:::
+
+
+The intended role of an adult facilitator is to create the conditions for young people to lead. That means making space for different voices, helping teams test assumptions, and supporting follow-through without taking ownership of their projects.
+
+## Before a gathering
+
+Listen to potential participants and community members. Identify barriers such as transport, meeting times, language, food, costs, disability access, and caring or work responsibilities. Help youth teams choose a scope they can reasonably attempt.
+
+Host organizations must establish safeguarding, consent, supervision, incident response, accessibility, and any required local permissions before activities begin. These planning notes do not replace local policies, professional advice, or training.
+
+## During project development
+
+Use questions that make an idea more concrete: who has helped define the need, what resources exist, what first step is feasible, and what support is missing? Make room for quieter participants and avoid equating presentation confidence with project value.
+
+If money is available, explain any allocation process clearly in advance. Community feedback and nonfinancial support should still matter. An event need not be a competition.
+
+## After the gathering
+
+Agree on responsibilities and proportionate check-ins with youth teams. Record practical lessons without collecting unnecessary personal information. Ask participants what helped, what felt difficult, and what they would change.
+
+## What will be added
+
+Future materials may include preparation prompts, facilitation notes, project planning worksheets, and reflection tools. Original materials need to be reviewed before these are offered as TSP guides. No complete curriculum or facilitator certification is currently available.
+
+[Hosting considerations](hosting.qmd) · [Contribute feedback on the model](feedback.qmd)

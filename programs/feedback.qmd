@@ -1,0 +1,28 @@
+---
+title: Learning with communities
+description: A process for sharing adaptations, identifying barriers, and improving future versions of TSP resources.
+---
+
+Community experience should change the resources—not simply supply stories for a website. The developing feedback process invites teenagers, facilitators, and hosts to critique assumptions and explain how the model fits, or fails to fit, their setting.
+
+## What feedback can help us understand
+
+- **Context:** the type of setting and resources available, without identifying participants.
+- **Adaptation:** what was changed and why, including what was left out.
+- **Access:** practical barriers, accommodations, and who might have been left out.
+- **Support:** what teams actually needed and what support was feasible.
+- **Experience:** what people found helpful, difficult, or missing.
+- **Next version:** suggested edits, locally developed materials, and questions to investigate.
+
+## How suggestions will inform development
+
+Contributions can be reviewed for clarity, privacy, permissions, and relevance. Accepted changes should be recorded in the resource’s revision note. A local adaptation should retain its context rather than being presented as a universal best practice. Evidence of an outcome requires an appropriate method; a positive account alone does not establish effectiveness.
+
+::: {.note}
+
+**Current route:** contributors comfortable with GitHub can use the repository’s Resource feedback issue template, as explained in CONTRIBUTING.md. Public contact and social channels are not yet configured. Please do not post names, photographs, contact details, or confidential accounts about young people. A confidential feedback route must be established before collecting sensitive program information.
+
+:::
+
+
+[Ways to get involved](../get-involved.qmd) · [Program evaluation research priorities](../research/program-evaluation.qmd)

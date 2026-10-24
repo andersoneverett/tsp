@@ -1,0 +1,53 @@
+name: Publish website
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['research-projects/**', 'renv/**', 'renv.lock', '.Rprofile', '*.Rproj']
+  pull_request:
+    paths-ignore: ['research-projects/**', 'renv/**', 'renv.lock', '.Rprofile', '*.Rproj']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install validation dependency
+        run: python -m pip install PyYAML==6.0.3
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.8.27'
+      - name: Validate public sources
+        run: python scripts/validate.py --source-only
+      - name: Render website (no analytical execution)
+        run: quarto render
+      - name: Check internal links and publication safeguards
+        run: python scripts/validate.py
+      - name: Exercise news, research, RSS, search, and drafts
+        run: python scripts/test-listings.py
+      - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

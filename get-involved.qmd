@@ -1,0 +1,33 @@
+---
+title: Help shape what comes next.
+description: Contribute ideas, research expertise, and practical feedback as TSP develops.
+---
+
+TSP is building a foundation for useful, accessible youth service programming and evidence-informed advocacy. Contributions can begin with a careful question, a correction, or an insight from your community.
+
+## Bring your perspective
+
+**Young people:** help identify what makes a service opportunity meaningful, accessible, and realistic. Future participant materials should make room for your priorities and feedback.
+
+**Facilitators and communities:** critique the proposed event model, describe practical constraints, and suggest adaptations. [Read the community learning approach](programs/feedback.qmd).
+
+**Researchers and policy contributors:** suggest verifiable sources, public datasets, useful methods, and questions about national service. [Explore the research agenda](research/national-service.qmd).
+
+**Readers:** point out unclear language, accessibility problems, factual errors, or claims that need better evidence.
+
+## Current contribution route
+
+Contributors comfortable with GitHub can [open the collaboration workspace](https://github.com/everettsaccount/tsp) and use its issue templates for research suggestions, resource feedback, and technical problems. Instructions are in its CONTRIBUTING.md file. GitHub is a working space, not a prerequisite for future program participation.
+
+Public contact channels are still being configured. Until a suitable contact route is available, this site does not collect messages, registrations, email addresses, or participant information. Please do not post personal or confidential information in public issues.
+
+## Follow TSP
+
+<div data-social-links></div>
+<p data-social-unconfigured>Facebook, Instagram, and Action Network links have not yet been configured. Only verified links will appear here.</p>
+
+You can follow public updates using the [news RSS feed](news/index.xml) and [research RSS feed](research/index.xml).
+
+## Participating or hosting in the future
+
+Interested communities can review the [hosting considerations](programs/hosting.qmd). Specific events, dates, participation arrangements, and contact information will be announced after they are confirmed. No event registration, donation, or volunteer signup system is offered in this alpha.

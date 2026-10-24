@@ -1,0 +1,39 @@
+---
+title: "REPLACE: analytical report title"
+description: "REPLACE: the question, data, and scope."
+summary: "REPLACE: reviewed findings and limitations."
+date: 2026-10-23
+author: Teen Service Project
+categories: [Analytical report, National service]
+publication-type: Analytical report
+research-status: Draft — not reviewed
+draft: true
+---
+
+## Research question
+
+State the question and link to the reviewed research plan.
+
+## Data and methods
+
+Document verified sources, versions, inclusion criteria, definitions, transformations, and analytical methods. Link to public code when appropriate. Do not embed live R computations in this public page.
+
+## Findings
+
+Add reviewed narrative and approved exported figures only after the research has been executed. Include alternative text, data alternatives, and source notes for figures.
+
+## Limitations and uncertainty
+
+Address missing data, comparison groups, selection, precision, and generalization.
+
+## Implications
+
+Distinguish empirical results from policy judgment.
+
+## Reproducibility and sources
+
+Record the analytical project, code revision, run date, R and package versions, and verified source citations. Do not link to private data.
+
+## Correction and revision history
+
+Record substantive corrections and dates.

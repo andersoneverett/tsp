@@ -1,0 +1,74 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - about.qmd
+    - programs/**/*.qmd
+    - research/**/*.qmd
+    - news/**/*.qmd
+    - get-involved.qmd
+    - privacy.qmd
+    - accessibility.qmd
+    - 404.qmd
+  resources:
+    - /assets/**
+    - /downloads/**
+    - "!renv/**"
+    - "!research-projects/**"
+    - "!drafts/**"
+    - "!templates/**"
+website:
+  title: Teen Service Project
+  description: Advancing youth opportunity through research, advocacy, and civic engagement.
+  site-url: https://everettsaccount.github.io/tsp/
+  favicon: assets/favicon.svg
+  draft-mode: gone
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    logo: assets/wordmark.svg
+    logo-alt: Teen Service Project home
+    title: false
+    collapse-below: lg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: programs/index.qmd
+        text: Programs
+      - href: research/index.qmd
+        text: Research & Policy
+      - href: news/index.qmd
+        text: News & Updates
+    right:
+      - href: get-involved.qmd
+        text: Get Involved
+  page-footer:
+    border: false
+    left: |
+      **Teen Service Project**<br>Advancing youth opportunity through research, advocacy, and civic engagement.<br><span class="footer-note">An independent grassroots initiative · Alpha v0.1</span>
+    right:
+      - text: Accessibility
+        href: accessibility.qmd
+      - text: Privacy
+        href: privacy.qmd
+      - text: Get Involved
+        href: get-involved.qmd
+format:
+  html:
+    theme: [cosmo, assets/brand.scss]
+    toc: false
+    anchor-sections: true
+    link-external-newwindow: false
+    include-before-body: includes/skip-link.html
+    include-after-body: includes/footer.html
+    lang: en
+    date-format: long
+    html-math-method: mathml
+    page-layout: article
+execute:
+  enabled: false
+  freeze: true

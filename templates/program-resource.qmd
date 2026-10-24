@@ -1,0 +1,28 @@
+---
+title: "REPLACE: resource title"
+description: "REPLACE: purpose and intended audience."
+summary: "REPLACE: what is available and what its limits are."
+date: 2026-10-23
+author: Teen Service Project
+categories: [Program resource]
+audience: "REPLACE: teens, facilitators, or hosts"
+resource-status: Draft — untested
+version: "0.1-draft"
+draft: true
+---
+
+## Purpose and audience
+
+Describe the need this material addresses and its development status.
+
+## Resource
+
+Use original TSP materials only once supplied, reviewed, and cleared for public use. Add a download only when the file exists in downloads/. Include format, size, version, and access needs.
+
+## Using and adapting this material
+
+Explain what is proposed versus documented through use. Record local context and avoid promising outcomes.
+
+## Feedback and revision history
+
+Explain how feedback was considered and record dated changes. Remove personal information from public examples.

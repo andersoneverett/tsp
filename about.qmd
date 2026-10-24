@@ -1,0 +1,46 @@
+---
+title: About Teen Service Project
+description: An independent grassroots initiative connecting youth leadership, community strengths, and evidence-informed policy.
+---
+
+{{< var mission >}}
+
+Teen Service Project (TSP) brings together community programming, applied research, and public policy advocacy around a shared concern: equitable access to meaningful service opportunities for young people.
+
+## Why this work
+
+Service can be a way to practice civic participation, build relationships, and contribute to a place that matters. But participation takes time, resources, transportation, and support. A meaningful opportunity should not be available only to young people who can afford to take it.
+
+TSP develops a community-led approach to teenage service while investigating how public policy can make more substantial, voluntary, paid service opportunities accessible. Local practice can help identify questions for research; evidence can inform program decisions and advocacy.
+
+## What guides us
+
+**Youth leadership.** Teenagers should have a meaningful role in identifying priorities, shaping projects, and deciding how their experiences are represented.
+
+**Community strengths.** Start with the skills, relationships, places, and knowledge already present. Young people are contributors to their communities, not problems to be solved.
+
+**Equitable access.** Consider costs, compensation, disability access, transportation, time, language, and the responsibilities that participants carry outside a program.
+
+**Evidence-informed practice.** Make methods visible, distinguish evidence from assumptions, and revise conclusions when better information becomes available.
+
+**Shared learning.** Treat community adaptations and criticism as inputs to the next version of the work. Avoid treating one local format as universally appropriate.
+
+## An existing initiative, a new foundation
+
+TSP is being redeveloped using previously created programming concepts and materials. This alpha establishes a public home, a research workspace, and a structure for organizing those resources.
+
+::: {.note}
+
+**History to document.** Original materials, dates, contributors, and accounts of earlier activity have not yet been supplied for this version. A fuller history will be added after those records are reviewed. This website does not claim a current schedule of events, tested curriculum, partnerships, or participant outcomes.
+
+:::
+
+
+## What is being developed
+
+- An adaptable gathering model that helps teenagers develop and carry out local service ideas.
+- Resources for teens, adult facilitators, and host communities, informed by original TSP materials when available.
+- A reproducible research agenda focused first on voluntary, paid national service in the United States.
+- An approach to advocacy grounded in verified evidence and community experience.
+
+[Explore the program](programs/index.qmd) or [read the research priorities](research/index.qmd).

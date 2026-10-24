@@ -1,0 +1,21 @@
+name: Research suggestion
+description: Suggest a source, dataset, question, or data correction.
+title: "[Research] "
+body:
+  - type: markdown
+    attributes:
+      value: "Public issue: do not include participant information, private data, or credentials. Suggested sources still require verification."
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Question or suggested source
+      description: Include a verifiable URL, publisher, and date if available.
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance and limitations
+      description: What can this evidence help answer? Note methods, uncertainty, or data quality concerns.
+    validations:
+      required: true

@@ -1,0 +1,17 @@
+name: Technical or accessibility problem
+description: Report a broken page, link, build, or accessibility barrier.
+title: "[Website] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Affected page or workflow
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened and what you expected
+      description: Include steps and browser/device if useful. Do not include private screenshots, tokens, or participant information.
+    validations:
+      required: true

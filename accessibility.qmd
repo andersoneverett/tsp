@@ -1,0 +1,10 @@
+---
+title: Accessibility
+description: Our approach to making public information usable, and how to identify problems.
+---
+
+TSP aims to make its public information usable across screen sizes, input methods, and assistive technologies. This alpha uses semantic headings, keyboard-accessible navigation, a skip link, readable color contrast, descriptive links, and alternative text for meaningful images.
+
+The site respects reduced-motion preferences and does not depend on animations. Search and category filters supplement ordinary page navigation. Research publications should provide text explanations and accessible data alternatives alongside future visualizations.
+
+This is an accessibility commitment, not a claim of formal certification or a complete audit. If a page, resource, or interaction creates a barrier, please describe the page and the difficulty through a route listed on [Get Involved](get-involved.qmd). Avoid sharing personal information in public issues.

@@ -1,0 +1,40 @@
+---
+title: Hosting a local gathering
+description: Begin with local relationships, accessible space, and a realistic plan for supporting youth projects.
+---
+
+::: {.status}
+
+Hosting approach proposed
+
+:::
+
+
+A TSP event is intended to adapt to a community’s strengths and capacity. A school room, library space, or other suitable gathering place may be enough. Expensive technology, elaborate competition rules, substantial fundraising, and specialized facilities are not prerequisites.
+
+## Plan for access and follow-through
+
+**Start with relationships.** Talk with teenagers and people who already support them. Let their priorities inform the setting, schedule, and way ideas are shared.
+
+**Choose an accessible format.** Consider transport, physical and sensory access, language, time, food, and participation costs. Provide more than one way to contribute an idea or ask for support.
+
+**Make support tangible.** Invite offers of time, skills, materials, connections, and spaces. If grants are possible, set transparent expectations; do not promise funds that are not secured.
+
+**Agree on local responsibilities.** Confirm safeguarding, consent, supervision, insurance or permissions where required, and a person responsible for responding to concerns. TSP’s alpha materials do not authorize or certify an event.
+
+**Plan beyond the event.** Identify who can help teams take their next step and how progress and setbacks can be discussed without pressuring young people to report only positive stories.
+
+## An adaptable gathering
+
+A community might combine informal conversation, short youth proposals, questions, offers of assistance, and a closing discussion about next steps. This is an example of a proposed format, not a required agenda or a tested recipe.
+
+## Share what you adapt
+
+Describe your setting, the changes you made, what participation required, what support was available, and what you would do differently. Avoid identifying young people in public feedback. [See the community learning process](feedback.qmd).
+
+::: {.note}
+
+**Before announcing an event:** hosting instructions and original TSP materials still need development and review. This site does not list confirmed host communities or an active event application process.
+
+:::
+

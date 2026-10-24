@@ -1,0 +1,58 @@
+---
+title: "National service — analytical report template"
+subtitle: "In development: no empirical findings"
+author: Teen Service Project
+date: last-modified
+format:
+  html:
+    toc: true
+    embed-resources: true
+execute:
+  enabled: true
+  freeze: false
+  echo: true
+  error: false
+---
+
+## Status and question
+
+This is an executable analytical template, not a completed study. How can paid national service expand youth opportunity, workforce development, and civic participation, and what does existing evidence suggest about effectiveness and equitable access?
+
+## Source inventory readiness
+
+```{r}
+#| label: inventory-validation
+# Resolve the repository root both from Quarto's document directory and repo root.
+root <- normalizePath(".")
+while (!file.exists(file.path(root, "renv.lock"))) {
+  parent <- dirname(root)
+  if (identical(parent, root)) stop("Run this report inside the TSP repository.")
+  root <- parent
+}
+source(file.path(root, "research-projects/national-service/src/validate-inventory.R"))
+inventory <- validate_inventory(file.path(root, "research-projects/national-service/source-inventory.csv"))
+data.frame(sources = nrow(inventory), verified = sum(inventory$verification_status == "verified"))
+```
+
+The readiness counts above describe the inventory only. Zero sources means there is no evidence available for analysis. Do not interpret this template as program evaluation.
+
+## Data and methods
+
+To complete after source verification: provenance, definitions, periods, population, exclusions, transformations, checks, comparison strategy, uncertainty, and permissions.
+
+## Findings
+
+Not available. No source datasets or analyses have been supplied.
+
+## Limitations and policy implications
+
+No conclusions can be drawn from an empty research workspace. Future recommendations must distinguish evidence from policy judgment.
+
+## Reproducibility
+
+```{r}
+#| label: session-information
+sessionInfo()
+```
+
+Record the input versions and checksums, code revision, analysis date, reviewer, and correction history before release. Publish only approved outputs through a separate page in research/publications/.

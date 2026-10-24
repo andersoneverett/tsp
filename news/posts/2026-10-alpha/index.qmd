@@ -1,0 +1,26 @@
+---
+title: "A new foundation for Teen Service Project"
+description: "Introducing the alpha website, an initial national service research agenda, and a place to develop community programming resources."
+summary: "What this first version establishes—and what remains to be developed with original materials, evidence, and community input."
+date: 2026-10-23
+author: Teen Service Project
+categories: [Organizational update, Program development, Research progress]
+---
+
+Teen Service Project is redeveloping its public home and working materials around a shared mission: {{< var mission >}}
+
+This alpha brings three connected activities into one place: community programming that supports youth-led service ideas, applied research on access and opportunity, and policy advocacy informed by evidence and local experience.
+
+## What this version establishes
+
+The website explains the proposed community gathering model, with separate starting points for teens, adult facilitators, and host communities. It also introduces an [initial research agenda on voluntary, paid national service](../../../research/publications/2026-national-service-agenda/index.qmd).
+
+Behind the public pages is a structure for reproducible R analysis, publication templates, and the development of program resources. Ordinary website updates are kept separate from analytical computations.
+
+## What comes next
+
+Original TSP materials need to be supplied and reviewed. The initiative’s earlier history needs documentation. Research sources and datasets need verification before analysis. Community feedback should help improve the proposed resources and identify what works in different local settings.
+
+This is a foundation for that work, not an announcement of active events, completed research, established partnerships, or a finished curriculum.
+
+[Explore the program model](../../../programs/index.qmd), [read the research agenda](../../../research/index.qmd), or [learn how to contribute](../../../get-involved.qmd).

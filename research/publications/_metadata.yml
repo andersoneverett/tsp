@@ -1,0 +1,8 @@
+author: Teen Service Project
+toc: true
+toc-title: On this page
+title-block-style: default
+format:
+  html:
+    code-fold: true
+    code-summary: Show analytical code

@@ -1,0 +1,35 @@
+---
+title: "REPLACE: a specific policy question"
+description: "REPLACE: what this brief addresses."
+summary: "REPLACE: the central point and its limits."
+date: 2026-10-23
+author: Teen Service Project
+categories: [Policy brief, National service]
+publication-type: Policy brief
+research-status: Draft — not reviewed
+draft: true
+---
+
+## Summary
+
+State the policy question, what the verified evidence supports, and what remains uncertain.
+
+## Context and evidence
+
+Add only checked sources. Define populations, time periods, and relevant program differences. Link to a published analytical report if one exists.
+
+## Policy options and trade-offs
+
+Distinguish findings from TSP’s recommendations. Explain costs, access implications, implementation needs, and uncertainty.
+
+## Limitations
+
+Explain evidence gaps and why findings may not transfer to other settings.
+
+## Sources
+
+Add verified citations and access dates. No citations are supplied by this template.
+
+## Correction and revision history
+
+Record substantive corrections, what changed, and when.

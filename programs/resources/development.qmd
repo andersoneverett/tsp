@@ -1,0 +1,27 @@
+---
+title: Program resource development
+description: What is planned, what needs review, and how future resources will be organized.
+summary: A development plan for participant, facilitator, hosting, and community feedback resources.
+date: 2026-10-23
+author: Teen Service Project
+categories: [Program development]
+resource-status: Development note
+---
+
+This is a development note, not a participant guide, curriculum, or tested hosting manual. No finished downloadable program resources are available in alpha v0.1.
+
+::: {.table-scroll role="region" aria-label="Program resource development plan" tabindex="0"}
+
+| Audience | Planned materials | What must happen first |
+| --- | --- | --- |
+| Teenagers | Idea prompts, project planning worksheets, reflection materials | Review original TSP materials; seek youth feedback on clarity and access |
+| Adult facilitators | Preparation guidance, discussion prompts, support and reflection notes | Review original materials and local safeguarding responsibilities |
+| Host communities | Adaptable gathering guidance, resource mapping, follow-through planning | Review local implementation needs and access barriers |
+| All contributors | Feedback prompts, adaptation notes, revision history | Establish a privacy-conscious feedback route and review process |
+
+:::
+
+
+Future public resources will have a description, audience, status, version date, and clear limitations. Downloadable materials will be linked only when they exist and are approved for publication.
+
+Local contributions can help improve future versions. [Read how community learning will work](../feedback.qmd).

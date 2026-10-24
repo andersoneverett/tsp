@@ -1,0 +1,18 @@
+---
+title: News & Updates
+description: Notes on TSP’s redevelopment, research progress, and the work of building useful community resources.
+listing:
+  contents: posts/*/index.qmd
+  type: default
+  sort: date desc
+  categories: true
+  filter-ui: true
+  fields: [date, title, description, categories]
+  feed:
+    title: Teen Service Project — News & Updates
+    description: Organizational announcements, research progress, and program development notes.
+---
+
+Follow the work as it develops. Announcements, research notes, commentary, and program updates will appear here. Community stories will be published only with appropriate permissions and context.
+
+[Subscribe by RSS](index.xml)

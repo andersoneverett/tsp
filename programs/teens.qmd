@@ -1,0 +1,40 @@
+---
+title: For teenage participants
+description: Start with what you notice, what you care about, and the strengths around you.
+---
+
+::: {.status}
+
+Participant resources planned
+
+:::
+
+
+You do not need a finished project, fundraising experience, or a polished presentation to start thinking about community service. The proposed TSP process begins with listening to your community and noticing what people already contribute.
+
+## What participation could look like
+
+Think about a place or group you care about. Talk with people who know it well. What strengths are already there? What is something people would like to make better? A useful first idea might be small, specific, and possible with support from people nearby.
+
+At a TSP gathering, teenagers would explain their ideas and invite practical help. A neighbor might offer a workspace, knowledge, materials, or a connection. A project can be worthwhile even when no money changes hands.
+
+## Questions to bring to an idea
+
+- Who would benefit, and have they had a say in what happens?
+- What could your team try first with the time and resources available?
+- What help would make participation easier for you and others?
+- How would you know whether the project was useful?
+- What would you want to share with the next group of participants?
+
+## Support you should be able to expect
+
+The developing model calls for clear expectations, a way to ask questions, accessible participation, and adults who support rather than replace youth decisions. Local organizers must establish appropriate safety arrangements before offering an event.
+
+::: {.note}
+
+**No registration is open through this website.** Participant guides and worksheets have not yet been published. Event dates, eligibility, access arrangements, and points of contact must be confirmed locally before anyone is invited to participate. Please do not submit personal details here.
+
+:::
+
+
+[Explore how the model works](index.qmd) · [See the resource development plan](resources/development.qmd)

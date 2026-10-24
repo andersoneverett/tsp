@@ -1,0 +1,20 @@
+name: Resource feedback
+description: Critique a resource or suggest a locally appropriate adaptation.
+title: "[Resources] "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not identify young people or share confidential experiences. Describe context without personal details."
+  - type: input
+    id: resource
+    attributes:
+      label: Page or resource
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback, context, and proposed improvement
+      description: Explain barriers, changes, and whether this is a proposal or experience from use.
+    validations:
+      required: true

@@ -1,0 +1,41 @@
+---
+title: Voluntary, paid national service
+description: An initial research project on access, opportunity, program effectiveness, and public investment in the United States.
+---
+
+::: {.status}
+
+Research project in development
+
+:::
+
+
+**Guiding question:** How can paid national service expand youth opportunity, workforce development, and civic participation, and what does existing evidence suggest about program effectiveness and equitable access?
+
+## Scope of the initial investigation
+
+::: {.table-scroll role="region" aria-label="National service research questions" tabindex="0"}
+
+| Area | Questions to investigate |
+| --- | --- |
+| AmeriCorps and state service-year programs | How do program purposes, eligibility, duration, and implementation differ? |
+| Compensation and participation costs | How do living allowances, benefits, education awards, local costs, and foregone earnings affect feasibility? |
+| Equitable access | What barriers relate to income, geography, disability, education, caring responsibilities, or other program conditions? |
+| Workforce and education | Which outcomes are measured, over what time, and with what comparison groups? |
+| Civic participation | How is engagement defined and measured, and what claims can the study design support? |
+| Public spending and implementation | What do budget measures include, how are resources delivered, and where are comparable figures unavailable? |
+
+:::
+
+
+## Evidence before claims
+
+The workspace includes a research plan, a source inventory awaiting verification, a data dictionary template, analytical source directories, and a reproducible report template. No datasets, studies, statistics, or findings have been invented or added as evidence.
+
+An initial review should verify source ownership, access conditions, coverage, methodology, and whether data can be shared. Later analysis should document exclusions, changes in definitions, uncertainty, and the difference between association and causal evidence.
+
+## Publication path
+
+The [initial research agenda](publications/2026-national-service-agenda/index.qmd) establishes the questions and intended methods. A policy brief or analytical report will be published only after evidence has been checked, analysis reviewed, and limitations explained. Interactive visualizations may follow when appropriate data and accessible alternatives are available.
+
+[See all research publications](index.qmd) · [Contribute research expertise](../get-involved.qmd)

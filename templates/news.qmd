@@ -1,0 +1,19 @@
+---
+title: "REPLACE: a clear news headline"
+description: "REPLACE: a one-sentence description."
+summary: "REPLACE: the short summary used to introduce this update."
+date: 2026-10-23
+author: Teen Service Project
+categories: [Organizational update]
+draft: true
+---
+
+Write the update in plain language. Distinguish confirmed activity from plans.
+
+## What is changing
+
+Add verified details. Do not invent events, partners, results, or contact details.
+
+## Next steps
+
+Link to the relevant program or research page using a relative file path.

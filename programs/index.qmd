@@ -1,0 +1,77 @@
+---
+title: Community ideas. Youth leadership.
+description: A locally adaptable gathering model that connects teenagers’ service ideas with the strengths of their communities.
+---
+
+::: {.status}
+
+Program model in development
+
+:::
+
+
+TSP’s signature model is a community gathering where teenagers identify local strengths and opportunities, develop youth-led service proposals, present their ideas, and receive support from neighbors. Young people then work toward implementation and share what they learned.
+
+Support can be practical: a meeting space, transport, materials, mentorship, a useful introduction, or volunteer time. Financial contributions and small grants can help when available, but they are **not requirements for participation or hosting**.
+
+## From an idea to shared learning
+
+::: {.steps}
+
+1. **Prepare together.** Listen to young people, map community strengths, identify access needs, and agree on realistic expectations.
+2. **Develop service ideas.** Teens choose an opportunity that matters locally, describe a manageable first step, and identify what support would help.
+3. **Gather as a community.** Create an accessible setting for proposals, conversation, questions, and offers of assistance.
+4. **Connect projects with support.** Match ideas with people, resources, spaces, and optional funding. Avoid making success depend on a popularity contest.
+5. **Put ideas into practice.** Youth teams and adult supporters agree on responsibilities, check in, and adapt to what is feasible.
+6. **Reflect and improve.** Share experiences, what changed, what did not work, and what another community should know.
+
+:::
+
+
+These are proposed components, not a tested sequence or mandatory event format. A small gathering in a familiar space can be a useful starting point.
+
+## Find your starting point
+
+::: {.three-grid}
+
+::: {.feature}
+
+### For teens
+Your ideas, your community, and a realistic first step. Explore the role young people would play and the support they should be able to expect.
+
+[Participant information →](teens.qmd)
+
+:::
+
+::: {.feature}
+
+### For facilitators
+Support youth decision-making, help teams plan, and pay attention to access and safeguarding responsibilities.
+
+[Facilitator information →](facilitators.qmd)
+
+:::
+
+::: {.feature}
+
+### For communities
+Adapt a gathering to local resources. Plan for practical support and follow-through before inviting participants.
+
+[Hosting information →](hosting.qmd)
+
+:::
+
+:::
+
+
+## Where the model draws inspiration
+
+The concept is a youth-centered adaptation of the community-supported project model associated with [Detroit SOUP](https://detroitsoup.com/), informed by asset-based community development and youth participatory leadership. Educational resources, project development, and participant support associated with the [Diamond Challenge](https://diamondchallenge.org/), and collaborative team service experiences associated with [Public Allies](https://publicallies.org/), are additional conceptual reference points.
+
+These references describe inspiration, **not partnerships, endorsements, or a claim to reproduce those organizations’ programs**.
+
+## Resources will develop through use
+
+Original TSP materials will be reviewed before guides, worksheets, or implementation examples are published. We will distinguish proposed guidance from practices supported by documented experience.
+
+[Browse the resource archive](resources/index.qmd), [see the development plan](resources/development.qmd) and [how communities can contribute learning](feedback.qmd).

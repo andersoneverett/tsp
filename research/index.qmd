@@ -1,0 +1,53 @@
+---
+title: Research & Policy
+description: Transparent research on service, opportunity, and the public choices that shape participation.
+listing:
+  id: publications
+  contents: publications/*/index.qmd
+  type: default
+  sort: date desc
+  categories: true
+  filter-ui: true
+  sort-ui: true
+  fields: [date, title, description, categories]
+  field-display-names:
+    description: Summary
+  feed:
+    title: Teen Service Project — Research & Policy
+    description: Research agendas, policy briefs, and reports from TSP.
+---
+
+Research is central to TSP’s mission. We are building a workspace for transparent methods, responsible quantitative analysis, and accessible communication about youth opportunity. Our first priority is voluntary, paid national service in the United States.
+
+## Start with the questions
+
+How can paid national service expand youth opportunity, workforce development, and civic participation? What does existing evidence suggest about program effectiveness and equitable access?
+
+Our initial work will examine AmeriCorps and state-level service-year programs, compensation, participation barriers, workforce and educational outcomes, civic engagement, public spending, and implementation. [Explore the national service project](national-service.qmd).
+
+A complementary [program evaluation agenda](program-evaluation.qmd) will help communities investigate TSP’s own programming when implementation begins, including access, facilitator experience, project resources, and local adaptations.
+
+## Policy approach {#policy-approach}
+
+TSP’s initial advocacy priority is expanding access to **voluntary, paid national service**. This is a stated policy direction, not a conclusion from completed TSP research. Specific recommendations should be traceable to verified evidence, practical experience, and explicit trade-offs.
+
+We intend to ask whether compensation makes participation financially feasible, whose needs program design overlooks, what supports implementation, and how public resources are used. We will distinguish descriptive patterns from causal effects and avoid treating all service programs as interchangeable.
+
+## How we will work
+
+- Record the provenance, dates, definitions, and limitations of sources.
+- Keep analytical code reproducible and separate from public website updates.
+- Explain missing data, uncertainty, comparison groups, and the limits of generalization.
+- Protect confidential and personal information; publish only material cleared for public release.
+- Correct errors visibly and revise recommendations when the evidence changes.
+
+## Publications and research notes
+
+Search titles and summaries, or select a topic. **The initial publication is a research agenda, not a report of findings.** Policy briefs and analytical reports will appear here when evidence and analysis are ready. Future visualizations will be published with methods, sources, and accessible alternatives.
+
+::: {#publications}
+
+:::
+
+
+[Research feed](index.xml) · [Suggest a source or correction](../get-involved.qmd)
